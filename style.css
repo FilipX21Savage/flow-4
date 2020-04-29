@@ -1,0 +1,47 @@
+
+.navbar {
+    background-color: #23415c; 
+    padding: 1% 0;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a {
+    color: #d5d5d5; 
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+    color: #fff;
+}
+
+
+
+#start {
+  background-color: #4CAF50;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 5px;
+  width: 180px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+
+#result {
+  position: absolute;
+  top: 55%;
+  left: 43%;
+    font-weight: bold;
+  
+}
